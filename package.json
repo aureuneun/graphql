@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "learning GraphQL with graphql-yoga",
+  "main": "index.js",
+  "repository": "https://github.com/aureuneun/graphql.git",
+  "author": "aureuneun <aureuneun@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}

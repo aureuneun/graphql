@@ -1,0 +1,13 @@
+type Movie {
+  id: Int!
+  original_title: String!
+  poster_path: String!
+  backdrop_path: String
+  overview: String
+}
+
+type Query {
+  movies: [Movie]!
+  movie(id: Int!): Movie
+  recommendations(id: Int!): [Movie]!
+}
